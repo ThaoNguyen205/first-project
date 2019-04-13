@@ -1,0 +1,21 @@
+{
+  "name": "with-css-modules",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 8080",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "bootstrap": "^4.3.1",
+    "next": "^8.0.4",
+    "react": "^16.8.6",
+    "react-dom": "16.8.6"
+  },
+  "description": "[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/zeit/next.js/tree/master/examples/with-next-css)",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
