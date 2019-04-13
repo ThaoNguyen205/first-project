@@ -15,6 +15,12 @@ export default () => {
       event: 'Tram Anh ',
       location: 'VN',
       tag: 'code'
+    },
+    {
+      date: '20/04/2019',
+      event: 'Nguyen Van ',
+      location: 'VN',
+      tag: 'code'
     }
   ]
 
