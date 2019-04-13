@@ -1,20 +1,20 @@
 /* Without CSS Modules, maybe with PostCSS */
 
-import "../style.css"
-import "bootstrap/dist/css/bootstrap.min.css"
+import '../style.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 export default () => {
   const info = [
     {
-      date: "14/04/2019",
-      event: "Wankanda",
-      location: "VN",
-      tag: "code"
+      date: '14/04/2019',
+      event: 'SU KIEN',
+      location: 'VN',
+      tag: 'code'
     },
     {
-      date: "12/04/2019",
-      event: "Tram Anh ",
-      location: "VN",
-      tag: "code"
+      date: '12/04/2019',
+      event: 'Tram Anh ',
+      location: 'VN',
+      tag: 'code'
     }
   ]
 
@@ -22,17 +22,17 @@ export default () => {
     <>
       <nav
         className="navbar navbar-dark "
-        style={{ justifyContent: "center", background: "black" }}
+        style={{ justifyContent: 'center', background: 'black' }}
       >
-        <span style={{ color: "white" }}>Hacker</span>
-        <span style={{ color: "Red" }}>Event</span>
+        <span style={{ color: 'white' }}>Hacker</span>
+        <span style={{ color: 'Red' }}>Event</span>
       </nav>
 
       <div
         className="jumbotron jumbotron-fluid"
-        style={{ background: "black" }}
+        style={{ background: 'black' }}
       >
-        <div className="container" style={{ color: "white" }}>
+        <div className="container" style={{ color: 'white' }}>
           <h1 className="display-4">
             <strong>SỰ KIỆN</strong>
           </h1>
@@ -48,7 +48,7 @@ export default () => {
               <hr />
               <div className="row">
                 <div className="col-3">
-                  <h3>Thang {value.date.split("/")[1]}</h3>
+                  <h3>Thang {value.date.split('/')[1]}</h3>
                 </div>
                 <div className="col-6">
                   <h3>{value.event}</h3>
